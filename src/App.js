@@ -26,6 +26,8 @@ import ScrollUpBtn from "./components/ScrollUp";
 import Sign from "./pages/Sign/Sign";
 import SignInForm from "./pages/Sign/pages/SignInForm";
 import SignUpForm from "./pages/Sign/pages/SignUpForm";
+import Unity, {UnityContent} from "react-unity-webgl";
+import {Editeur} from "./pages/Editeur/Editeur";
 
 class App extends Component {
     render() {
@@ -46,6 +48,10 @@ class App extends Component {
                                             <Route
                                                 path="/sign"
                                                 component={Sign}
+                                            />
+                                            <Route
+                                                path="/editeur"
+                                                component={Editeur}
                                             />
                                             <Route
                                                 path="/blog-details"
@@ -87,3 +93,4 @@ class App extends Component {
     }
 }
 export default App;
+

@@ -29,6 +29,7 @@
     "react-scroll": "^1.7.11",
     "react-scroll-up-button": "^1.6.4",
     "react-transition-group": "^2.6.0",
+    "react-unity-webgl": "^7.1.7",
     "react-visibility-sensor": "^5.0.2"
   },
   "scripts": {

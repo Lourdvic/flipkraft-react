@@ -177,7 +177,7 @@ class NavBar extends Component {
                                 <Nav.Item>
                                     <Link
                                         activeclass="active"
-                                        //to=""
+                                        to="/editeur"
                                         spy={true}
                                         smooth={true}
                                         offset={-200}
